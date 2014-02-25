@@ -51,7 +51,8 @@
             </plugin>
         </plugins>
     </build>
-        
+    
+    <!-- For modeling.imdeasoftware.org server -->
     <distributionManagement>
         <repository>
             <id>imdea.modeling.private-releases</id>
@@ -64,7 +65,22 @@
             <url>http://modeling.imdeasoftware.org/nexus/content/repositories/snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
-        
+ 
+    <!-- For actiongui.org server    
+    <distributionManagement>
+        <repository>
+            <id>actiongui.releases</id>
+            <name>ActionGUI Public Releases</name>
+            <url>http://actiongui.org/nexus/content/repositories/releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>actiongui.snapshots</id>
+            <name>ActionGUI Public Snapshots</name>
+            <url>http://actiongui.org/nexus/content/repositories/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+    -->    
+    
     <dependencyManagement>
         <dependencies>
             <!--External libraries default versions-->
