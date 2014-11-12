@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.modelinglab</groupId>
     <artifactId>general-parent</artifactId>
-    <version>5-SNAPSHOT</version>
+    <version>5</version>
     <packaging>pom</packaging>
     <name>ML General Maven Parent</name>
   
@@ -287,12 +287,11 @@
     
     <developers>
         <developer>
-            <id>gortiz</id>
-            <name>Gonzalo Ortiz Jaureguizar</name>
-            <email>golthiryus [at] gmail.com</email>
-            <url>http://es.linkedin.com/pub/gonzalo-ortiz-jaureguizar/54/b93/583</url>
-            <organization>${eth.name}</organization>
-            <organizationUrl>${eth.url}</organizationUrl>
+            <id>miguelgd</id>
+            <name>Miguel Angel Garcia de Dios</name>
+            <email>miguelangelgarciadedios [at] gmail [dot] com</email>
+            <organization>${imdea.name}</organization>
+            <organizationUrl>${imdea.url}</organizationUrl>
             <roles>
                 <role>architect</role>
                 <role>developer</role>
@@ -314,19 +313,7 @@
             <name>Carolina Dania</name>
             <organization>${imdea.name}</organization>
             <organizationUrl>${imdea.url}</organizationUrl>
-        </contributor>
-        <contributor>
-            <name>Javier Valdazo</name>
-            <organization>${imdea.name}</organization>
-            <organizationUrl>${imdea.url}</organizationUrl>
-        </contributor>
-        <contributor>
-            <name>Miguel Angel García de Dios</name>
-            <organization>${imdea.name}</organization>
-            <organizationUrl>${imdea.url}</organizationUrl>
-        </contributor>
-        
+        </contributor>        
     </contributors>
-    
-  
+ 
 </project>
